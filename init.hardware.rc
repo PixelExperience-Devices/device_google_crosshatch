@@ -694,11 +694,6 @@ on property:vendor.ims.DATA_DAEMON_STATUS=1
    start ims_rtp_daemon
    start imsrcsservice
 
-service cnd /vendor/bin/cnd
-   class main
-   user radio
-   group system wifi inet radio wakelock
-
 service netmgrd /vendor/bin/netmgrd
     class main
     user root
