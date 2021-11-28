@@ -24,4 +24,4 @@ PRODUCT_MAKEFILES := \
 COMMON_LUNCH_CHOICES := \
     aosp_crosshatch-userdebug \
     aosp_blueline-userdebug \
-    aosp_crosshatch_vf-userdebug \
+    aosp_crosshatch_vf-userdebug

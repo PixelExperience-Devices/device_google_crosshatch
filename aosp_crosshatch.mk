@@ -55,6 +55,14 @@ PRODUCT_COPY_FILES += $(LOCAL_PATH)/audio_effects.xml:$(TARGET_COPY_OUT_VENDOR)/
 # b/189477034: Bypass build time check on uses_libs until vendor fixes all their apps
 PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 
+# Inherit some common PixelExperience stuff.
+TARGET_BOOT_ANIMATION_RES := 1440
+TARGET_GAPPS_ARCH := arm64
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+
+# Inherit device configuration
+-include device/google/crosshatch/device-custom.mk
+
 # Keep the VNDK APEX in /system partition for REL branches as these branches are
 # expected to have stable API/ABI surfaces.
 ifneq (REL,$(PLATFORM_VERSION_CODENAME))
@@ -64,5 +72,11 @@ endif
 PRODUCT_MANUFACTURER := Google
 PRODUCT_NAME := aosp_crosshatch
 PRODUCT_DEVICE := crosshatch
-PRODUCT_BRAND := Android
-PRODUCT_MODEL := AOSP on crosshatch
+PRODUCT_BRAND := google
+PRODUCT_MODEL := Pixel 3 XL
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    PRODUCT_NAME=crosshatch \
+    PRIVATE_BUILD_DESC="crosshatch-user 12 SP1A.210812.015 7679548 release-keys"
+
+BUILD_FINGERPRINT := google/crosshatch/crosshatch:12/SP1A.210812.015/7679548:user/release-keys
