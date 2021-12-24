@@ -1,0 +1,13 @@
+[
+   {
+      "repository":"kernel_google_bluecross",
+      "target_path":"kernel/google/bluecross",
+      "branch":"twelve"
+   },
+   {
+      "repository":"vendor_google_crosshatch",
+      "target_path":"vendor/google/crosshatch",
+      "branch":"twelve",
+      "remote":"pixel-devices-blobs"
+   }
+]
