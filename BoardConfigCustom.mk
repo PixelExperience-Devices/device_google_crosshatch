@@ -14,6 +14,9 @@ TARGET_COMPILE_WITH_MSM_KERNEL := true
 TARGET_KERNEL_CONFIG := b1c1_defconfig
 TARGET_KERNEL_SOURCE := kernel/google/bluecross
 
+# NDK platform
+NEED_AIDL_NDK_PLATFORM_BACKEND := true
+
 # Verified Boot
 BOARD_AVB_MAKE_VBMETA_IMAGE_ARGS += --flags 3
 
