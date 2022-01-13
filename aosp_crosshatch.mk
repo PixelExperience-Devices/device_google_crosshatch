@@ -77,8 +77,8 @@ PRODUCT_MODEL := Pixel 3 XL
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=crosshatch \
-    PRIVATE_BUILD_DESC="crosshatch-user 12 SP1A.210812.015 7679548 release-keys"
+    PRIVATE_BUILD_DESC="crosshatch-user 12 SP1A.210812.016.A2 7979095 release-keys"
 
-BUILD_FINGERPRINT := google/crosshatch/crosshatch:12/SP1A.210812.015/7679548:user/release-keys
+BUILD_FINGERPRINT := google/crosshatch/crosshatch:12/SP1A.210812.016.A2/7979095:user/release-keys
 
 $(call inherit-product, vendor/google/crosshatch/crosshatch-vendor.mk)
