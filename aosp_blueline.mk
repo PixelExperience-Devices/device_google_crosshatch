@@ -55,6 +55,7 @@ PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
 # Inherit some common PixelExperience stuff.
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_GAPPS_ARCH := arm64
+TARGET_SUPPORTS_QUICK_TAP := true
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit device configuration
