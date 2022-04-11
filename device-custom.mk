@@ -24,8 +24,7 @@ PRODUCT_PACKAGES += \
     hardware.google.bluetooth.bt_channel_avoidance@1.0 \
     hardware.google.bluetooth.bt_channel_avoidance@1.0.vendor \
     hardware.google.bluetooth.sar@1.0.vendor \
-    vendor.qti.hardware.bluetooth_audio@2.0.vendor \
-    libldacBT_bco
+    vendor.qti.hardware.bluetooth_audio@2.0.vendor
 
 # Camera Extensions
 PRODUCT_PRODUCT_PROPERTIES += \
