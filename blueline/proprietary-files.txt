@@ -224,13 +224,11 @@ system_ext/etc/permissions/com.android.omadm.radioconfig.xml
 system_ext/etc/permissions/com.google.android.camera.extensions.xml
 system_ext/etc/permissions/com.google.euiccpixel.permissions.xml
 system_ext/etc/permissions/com.google.euiccpixel.xml
-system_ext/etc/permissions/google-ril.xml
 system_ext/etc/permissions/vzw_mvs_permissions.xml
 -system_ext/framework/com.android.hotwordenrollment.common.util.jar
 -system_ext/framework/com.google.android.camera.extensions.jar
 -system_ext/framework/com.qualcomm.qti.uceservice-V2.0-java.jar
 -system_ext/framework/com.qualcomm.qti.uceservice-V2.1-java.jar
--system_ext/framework/google-ril.jar
 -system_ext/framework/RadioConfigLib.jar
 -system_ext/framework/vendor.qti.hardware.alarm-V1.0-java.jar
 -system_ext/framework/vendor.qti.hardware.data.latency-V1.0-java.jar
