@@ -96,9 +96,6 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
 
         <boolean name="auto_retry_failed_wifi_emergency_call" value="true" />
 
-        <!-- Show 4G icon instead of LTE icon -->
-        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
-
         <!-- Enable VoLTE for all carriers -->
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_volte_available_bool" value="true" />
@@ -1260,6 +1257,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_toast" value="false"/>
         <boolean name="show_call_session_event_toast" value="false"/>
         <boolean name="show_data_usage_toast" value="false"/>
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type"/>
             <item value="fota,ims"/>
@@ -1303,6 +1301,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="carrier_wfc_ims_available_bool" value="false" />
         <boolean name="config_spn_override_enabled" value="true" />
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type"/>
             <item value="supl,ims"/>
@@ -1336,6 +1335,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_toast" value="false"/>
         <boolean name="show_call_session_event_toast" value="false"/>
         <boolean name="show_data_usage_toast" value="false"/>
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type"/>
             <item value="fota,ims"/>
@@ -1381,6 +1381,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="ascii_7_bit_support_for_long_message" value="true" />
         <boolean name="cdma_cw_cf_enabled_bool" value="true" />
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type"/>
             <item value="supl,mms"/>
@@ -1412,6 +1413,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
     <carrier_config mcc="460" mnc="04">
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
         <boolean name="config_hide_vt_callforward_option" value="true" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
         <map name="apn_default_values_strings_array">
             <string name="protocol">IPV4V6</string>
             <string name="roaming_protocol">IPV4V6</string>
@@ -1423,6 +1425,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="false" />
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
         <map name="apn_default_values_strings_array">
             <string name="protocol">IPV4V6</string>
             <string name="roaming_protocol">IPV4V6</string>
@@ -1443,6 +1446,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="carrier_wfc_ims_available_bool" value="false" />
         <boolean name="config_spn_override_enabled" value="true" />
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
         <map name="apn_default_values_strings_array">
             <string name="protocol">IPV4V6</string>
             <string name="roaming_protocol">IPV4V6</string>
@@ -1472,6 +1476,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_toast" value="false"/>
         <boolean name="show_call_session_event_toast" value="false"/>
         <boolean name="show_data_usage_toast" value="false"/>
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type"/>
             <item value="fota,ims"/>
@@ -1520,6 +1525,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="show_video_quality_toast" value="false"/>
         <boolean name="show_call_session_event_toast" value="false"/>
         <boolean name="show_data_usage_toast" value="false"/>
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type"/>
             <item value="fota,ims"/>
@@ -1561,6 +1567,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="carrier_vt_available_bool" value="true" />
         <boolean name="carrier_wfc_ims_available_bool" value="false" />
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
         <map name="apn_default_values_strings_array">
             <string name="protocol">IPV4V6</string>
             <string name="roaming_protocol">IPV4V6</string>
@@ -1580,6 +1587,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
     <carrier_config mcc="460" mnc="10">
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
         <boolean name="config_hide_vt_callforward_option" value="true" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
         <map name="apn_default_values_strings_array">
             <string name="protocol">IPV4V6</string>
             <string name="roaming_protocol">IPV4V6</string>
@@ -1595,6 +1603,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="cdma_cw_cf_enabled_bool" value="true" />
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
         <boolean name="config_show_orig_dial_string_for_cdma" value="true" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type"/>
             <item value="supl,mms"/>
@@ -1631,6 +1640,7 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="cdma_cw_cf_enabled_bool" value="true" />
         <boolean name="allow_emergency_numbers_in_call_log_bool" value="true"/>
         <boolean name="config_show_orig_dial_string_for_cdma" value="true" />
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
         <string-array name="apn_hide_rule_strings_array" num="2">
             <item value="type"/>
             <item value="supl,mms"/>
