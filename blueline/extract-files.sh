@@ -59,6 +59,9 @@ function blob_fixup() {
     product/etc/sysconfig/nexus.xml)
         sed -i 's/qulacomm/qualcomm/' "${2}"
         ;;
+    vendor/bin/hw/vendor.qti.media.c2@1.0-service)
+        "${PATCHELF}" --replace-needed "libavservices_minijail_vendor.so" "libavservices_minijail.so" "${2}"
+        ;;
     esac
 }
 

@@ -10,7 +10,6 @@ PRODUCT_PACKAGES += \
 
 # AV media
 PRODUCT_PACKAGES += \
-    libavservices_minijail_vendor:32 \
     libcodec2_hidl@1.0.vendor:32 \
     libcodec2_vndk.vendor:64 \
     libmediaplayerservice \
