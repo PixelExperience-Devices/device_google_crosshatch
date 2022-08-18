@@ -8,6 +8,7 @@ BOARD_VENDOR_SEPOLICY_DIRS += device/google/crosshatch/sepolicy/vendor/google
 BOARD_VENDOR_SEPOLICY_DIRS += device/google/crosshatch/sepolicy/vendor/verizon
 BOARD_VENDOR_SEPOLICY_DIRS += device/google/crosshatch/sepolicy/tracking_denials
 BOARD_VENDOR_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/ramdump/common
+BOARD_VENDOR_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/wifi_perf_diag
 
 # Pixel-wide policies
 BOARD_VENDOR_SEPOLICY_DIRS += hardware/google/pixel-sepolicy/powerstats
