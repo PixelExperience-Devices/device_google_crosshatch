@@ -1,0 +1,5 @@
+cc_library_shared {
+    name: "lib-secureuishim",
+    srcs: ["lib-secureuishim.c"],
+    product_specific: true,
+}

@@ -209,7 +209,7 @@ product/etc/sysconfig/preinstalled-packages-product-pixel-2017-and-newer.xml
 product/lib/libdmengine.so
 product/lib/libdmjavaplugin.so
 product/lib/libsecureuisvc_jni.so
-product/lib64/libsecureuisvc_jni.so
+product/lib64/libsecureuisvc_jni.so|822e7364414d2cfdf7c607b40803f802cf0a8f9f
 -product/priv-app/CarrierSettings/CarrierSettings.apk;PRESIGNED
 -product/priv-app/DiagMon/DiagMon.apk
 -product/priv-app/EuiccGoogle/EuiccGoogle.apk;PRESIGNED

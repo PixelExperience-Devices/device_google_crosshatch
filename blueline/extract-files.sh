@@ -62,6 +62,9 @@ function blob_fixup() {
     vendor/bin/hw/vendor.qti.media.c2@1.0-service)
         "${PATCHELF}" --replace-needed "libavservices_minijail_vendor.so" "libavservices_minijail.so" "${2}"
         ;;
+    product/lib64/libsecureuisvc_jni.so)
+        "${PATCHELF}" --add-needed "lib-secureuishim.so" "${2}"
+        ;;
     esac
 }
 
