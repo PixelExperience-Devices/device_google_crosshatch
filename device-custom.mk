@@ -181,11 +181,11 @@ PRODUCT_PACKAGES += \
     CarrierConfigOverlay
 
 PRODUCT_PACKAGES += \
-    android.hardware.radio.config@1.0.vendor \
-    android.hardware.radio.config@1.1.vendor \
-    android.hardware.radio.deprecated@1.0.vendor \
-    android.hardware.radio@1.2.vendor \
-    android.hardware.radio@1.3.vendor
+    android.hardware.radio.config@1.2.vendor:64 \
+    android.hardware.radio.deprecated@1.0.vendor:64 \
+    android.hardware.radio@1.5.vendor:64 \
+    android.hardware.secure_element@1.2.vendor:64 \
+    libavservices_minijail.vendor:64 \
 
 # Sensor
 PRODUCT_PACKAGES += \
@@ -197,6 +197,19 @@ PRODUCT_PACKAGES += \
 # Shims
 PRODUCT_PACKAGES += \
     lib-secureuishim
+
+# Telephony
+PRODUCT_PACKAGES += \
+    ims-ext-common \
+    ims_ext_common.xml \
+    qti-telephony-hidl-wrapper \
+    qti_telephony_hidl_wrapper.xml \
+    qti-telephony-utils \
+    qti_telephony_utils.xml \
+    telephony-ext
+
+PRODUCT_BOOT_JARS += \
+    telephony-ext
 
 # Utilities
 PRODUCT_PACKAGES += \
@@ -220,3 +233,8 @@ PRODUCT_PACKAGES += \
     android.hardware.wifi@1.5.vendor \
     libwifi-hal:64 \
     libwifi-hal-qcom
+
+# VNDK FWK detect
+PRODUCT_PACKAGES += \
+    libqti_vndfwk_detect.vendor \
+    libvndfwk_detect_jni.qti.vendor
