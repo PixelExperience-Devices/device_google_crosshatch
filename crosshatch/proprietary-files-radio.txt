@@ -260,6 +260,7 @@ vendor/lib64/libqmiservices.so|1d650473d84a44c0a15dba121061e095947447d0
 # RIL - from coral - TP1A.220905.004
 -system_ext/app/QtiTelephonyService/QtiTelephonyService.apk|14eb62b41a031f42d26af8822392886f4b6bfa73
 -system_ext/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|bffd68ebbd0dc1002cbd8f8970025a1b7fa80476
+system_ext/etc/permissions/com.qualcomm.qcrilmsgtunnel.xml|233f4f01302ed0d89067cbd25624fae045930c79
 system_ext/etc/permissions/qcrilhook.xml|30397e293b2c40e6b7a1d11c2a615cdd05de625a
 -system_ext/framework/qcrilhook.jar|737b9f01c0dde7f90c9bb9185bb299883adab879
 -vendor/app/IWlanService/IWlanService.apk|88e31c546c1762b262517cdba23a79fd843603f7
