@@ -2,12 +2,12 @@
    {
       "repository":"kernel_google_bluecross",
       "target_path":"kernel/google/bluecross",
-      "branch":"twelve"
+      "branch":"thirteen"
    },
    {
       "repository":"vendor_google_crosshatch",
       "target_path":"vendor/google/crosshatch",
-      "branch":"twelve",
+      "branch":"thirteen",
       "remote":"pixel-devices-blobs"
    }
 ]
