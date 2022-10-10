@@ -4,6 +4,5 @@ package {
 
 runtime_resource_overlay {
     name: "ConnectivityOverlay",
-    sdk_version: "current",
     product_specific: true
 }
