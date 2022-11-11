@@ -25,6 +25,10 @@ PRODUCT_PACKAGES += \
     hardware.google.bluetooth.sar@1.0.vendor \
     vendor.qti.hardware.bluetooth_audio@2.0.vendor
 
+# Camera
+PRODUCT_PACKAGES += \
+    GcamPrebuilt
+
 # Camera Extensions
 PRODUCT_PRODUCT_PROPERTIES += \
     ro.vendor.camera.extensions.package=com.google.android.apps.camera.services \

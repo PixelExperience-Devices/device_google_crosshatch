@@ -5,6 +5,12 @@
       "branch":"thirteen"
    },
    {
+     "repository":"PixelBoot/packages_apps_GoogleCamera",
+     "target_path":"packages/apps/GoogleCamera",
+     "remote":"gitlab",
+     "branch":"thirteen"
+   },
+   {
       "repository":"vendor_google_crosshatch",
       "target_path":"vendor/google/crosshatch",
       "branch":"thirteen",
