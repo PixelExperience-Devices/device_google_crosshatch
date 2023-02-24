@@ -20,13 +20,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/camera \
     hardware/google/interfaces \
     hardware/google/pixel \
-    hardware/qcom/sdm845 \
-    vendor/google/camera \
-    vendor/qcom/sdm845 \
-    vendor/google/interfaces \
-    vendor/google_devices/common/proprietary/confirmatioui_hal \
-    vendor/google_nos/host/android \
-    vendor/google_nos/test/system-test-harness
+    hardware/qcom/sdm845
 
 PRODUCT_PROPERTY_OVERRIDES += \
     keyguard.no_require_sim=true
