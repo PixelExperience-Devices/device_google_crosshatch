@@ -79,7 +79,14 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/developer_gsi_keys.mk)
 PRODUCT_CHARACTERISTICS := nosdcard
 PRODUCT_SHIPPING_API_LEVEL := 28
 
-DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
+PRODUCT_PACKAGES += \
+    B1C1Frameworks \
+    B1C1Nfc \
+    B1C1Settings \
+    B1C1SettingsLib \
+    B1C1SystemUI \
+    B1C1Telecom \
+    B1C1Telephony
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/init.recovery.hardware.rc:recovery/root/init.recovery.$(PRODUCT_PLATFORM).rc \
