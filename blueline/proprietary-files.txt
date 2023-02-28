@@ -185,7 +185,14 @@ product/etc/felica/mfs.cfg
 product/etc/firmware/music_detector.descriptor
 product/etc/firmware/music_detector.sound_model
 product/etc/permissions/com.android.omadm.service.xml
+product/etc/permissions/com.android.sdm.plugins.connmo.xml
+product/etc/permissions/com.android.sdm.plugins.diagmon.xml
 product/etc/permissions/com.google.android.hardwareinfo.xml
+product/etc/permissions/com.google.android.odad.xml
+product/etc/permissions/com.google.omadm.trigger.xml
+product/etc/permissions/com.verizon.apn.xml
+product/etc/permissions/com.verizon.services.xml
+product/etc/permissions/features-verizon.xml
 product/etc/res/images/charger/battery_fail.png
 product/etc/res/images/charger/battery_scale.png
 product/etc/res/images/charger/main_font.png
